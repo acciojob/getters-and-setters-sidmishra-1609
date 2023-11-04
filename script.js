@@ -7,7 +7,9 @@ class Person {
 	get name{
 	return this._name;
 	}
-
+set age{
+	return this._age;
+}
 }
 
 class Student extends Person {
